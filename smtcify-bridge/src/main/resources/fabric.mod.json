@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "smtcify_bridge",
+  "version": "${version}",
+  "name": "SMTCify Bridge",
+  "description": "Puente entre SMTCify y el auxiliar multimedia de Windows.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.smtcify.bridge.SmtcifyBridge"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "smtcify": "*"
+  }
+}
